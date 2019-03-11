@@ -1,0 +1,38 @@
+/*Global class*/
+.bt{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-width: 1px;
+    color: #fff;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9rem;
+    margin: 10px;
+    padding: -6rem 1rem;
+}
+/*Local class*/
+.bt-blue{
+    background-color: #3498db;
+    border-color: #3498db;
+}
+.bt-green{
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+}
+.bt-purple{
+    background-color: #9b59b6;
+    border-color: #9b59b6;
+}
+.bt-red{
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+}
+.bt-yellow{
+    background-color: #f1c40f;
+    border-color: #f1c40f;
+}
