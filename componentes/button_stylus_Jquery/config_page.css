@@ -1,0 +1,36 @@
+/*Reset*/
+*{
+    box-sizing: border-box;
+    font: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+/*textos*/
+h1{font-size: 2rem;}
+p{font-size: 1.2rem;}
+/*Conteudo corpo*/
+.container{
+    margin: 0 auto;
+    padding: 1rem;
+    width: 99%;
+}
+.coluna{
+    padding: 15px;
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@media(min-width: 48em){
+    .container{width: 80%;}
+    .row{flex-direction: row;}
+}
