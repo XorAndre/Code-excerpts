@@ -11,6 +11,7 @@
     width: 100%;
     background: #3d4142;
     padding: .8rem 15px;
+    position: relative;
   }
   header .logo_container h1{
     color: #ffeb3b;
@@ -65,6 +66,9 @@
       border: none;
       color: #fff;
       font-size: 1.8em;
+      position: absolute;
+      right: 0.8rem;
+      top: 1.5rem;
     }
     header label {
       display: block;
