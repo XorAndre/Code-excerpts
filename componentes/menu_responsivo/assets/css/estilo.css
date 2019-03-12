@@ -59,7 +59,7 @@
   }
   @media (max-width: 48rem) {
     header {
-      padding: 1em 0;
+      padding: 1em 15px;
     }
     header button {
       background-color: transparent;
